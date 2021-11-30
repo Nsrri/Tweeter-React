@@ -19,6 +19,7 @@ const AllTweetPage = ({ token }) => {
       <h2>All The Tweets</h2>
       {tweeters.map((tweet) => (
         <>
+          {/* key should be in the parent element not all of them */}
           <h2 key={tweet.title}>{tweet.title}</h2>
           <p key={tweet.text} className="text">
             {tweet.text}
