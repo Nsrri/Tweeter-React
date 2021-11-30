@@ -1,0 +1,15 @@
+.text {
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  border: 1px solid black;
+  width: 20%;
+  background-color: gray;
+  padding: 1rem 1rem;
+}
+
+.design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

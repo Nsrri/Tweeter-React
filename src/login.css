@@ -1,0 +1,29 @@
+.form-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.input {
+  width: 50%;
+}
+button {
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form {
+  border: 1px soild gray;
+  background-color: gray;
+  width: 30%;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
